@@ -1,0 +1,111 @@
+@import"https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap";
+
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 1px solid #c6cbcd
+}
+
+.tabs__panel {
+    position: relative;
+    top: 1px;
+    right: 1px;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    z-index: 1000;
+    border-bottom: none;
+    margin-top: 50px;
+}
+
+.tabs__panel__item {
+    width: 70px;
+    height: 40px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center
+}
+
+.tabs__panel-txt {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.tabs__panel-txt:hover {
+    cursor: pointer;
+}
+
+.tabs__panel__item--active {
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid #c6cbcd;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid #fff
+}
+
+.tabs__content {
+    display: flex;
+    justify-content: space-between
+}
+
+.tabs__content--left {
+    max-width: 490px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 38px;
+    max-height: 336px;
+    margin-left: 85px
+}
+
+.tabs__content__header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-family: Open sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px
+}
+
+.tabs__content__text {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px
+}
+
+.tabs__content__button {
+    border: 1px solid #ec7979;
+    width: 45%;
+    height: 17%;
+    color: #fff;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: #ec7979;
+    transition: transform .15s ease-out
+}
+
+.tabs__content__button:hover {
+    transform: scale(1.05)
+}
+
+.tabs__content--image {
+    height: 100%
+}
