@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+.container{
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-wrapper{
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    place-content: center;
+}
+.second-block{
+    margin-top: 300px;
+}
+
+.title{
+
+    align-self: center;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+
+hr{
+    width: 170px;
+    margin: 0 auto;
+    border: 1px solid #EC7979;
+    size: 1px;
+    background-color: #EC7979;
+    margin: 0 auto 32px;
+}
+
+
+.small-text{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: normal;
+    line-height: 16px;
+    margin-bottom: 32px;
+    color: #86878B;
+}
+
+
+.comment-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: calc(0.017 * var(--container-width));
+
+    margin-bottom: 300px;
+
+}
+.comment__item{
+    height: 26vh;
+    width: calc(0.28 * var(--container-width));
+}
+
+.comment__box{
+    max-width: 85%;
+    background: #E2E2E2;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    padding: 50px 40px;
+    overflow-y: auto ;
+
+}
+.triangle::before{
+    content: url(../assets/triangle.svg);
+    position: relative;
+    bottom: -205px;
+    left: 20%;
+}
+
+
+.comment__item-text{
+
+    max-height: 90px;
+    align-self: center;
+    font-family: Raleway;
+    line-height: 16.44px;
+    display: flex;
+
+    text-align: center;
+
+    color: #86878B;
+}
+
+.customer-card{
+    height: fit-content;
+    margin-top: 66px;
+    display: flex;
+    justify-content:flex-start;
+
+}
+
+.customer__info{
+    text-align: left;
+    margin-left: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.customer__name{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.customer__occupation{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+
+.feature{
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feature__name{
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+    min-height: 100px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32.68px;
+    text-transform: capitalize;
+}
+
+.feature__description{
+    margin-top: 8px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+
+
+}
+
+.feature__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
