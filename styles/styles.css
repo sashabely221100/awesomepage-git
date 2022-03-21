@@ -1,4 +1,5 @@
 @import url(./awesome.css);
+@import url(./tabs.css);
 *{
     --container-width:1170px;
     margin: 0;
